@@ -13,5 +13,20 @@ public abstract class Books {
     String title;
     double price;
     
+    public Books(String title, double price ){
+        this.title = title;
+        this.price = price;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+    
+    public abstract void setPrice();
+    
     
 }
